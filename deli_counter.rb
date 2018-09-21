@@ -18,8 +18,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
 end
 
-# def take_a_number(katz_deli)
-  puts "Welcome, You are number #{katz_deli.index(name)+1} in line."
+# def take_a_number(katz_deli, name)
+  total = katz_deli.length
+
+  puts "Welcome, your ticket number is #{katz_deli.index(name)+1} and you are ____ in line."
 # end
 
 def now_serving(katz_deli)
