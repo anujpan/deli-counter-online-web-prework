@@ -19,7 +19,9 @@ def take_a_number(katz_deli, name)
 end
 
 def ticket_number(katz_deli)
-  total = katz_deli.length
+  current_number = 0
+  
+  katz_deli.push(current_number + 1)
 
   puts "Welcome, your ticket number is #{katz_deli.index(name)+1} and you are in line."
 end
