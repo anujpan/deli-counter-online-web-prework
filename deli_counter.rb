@@ -27,7 +27,7 @@ def ticket_number(katz_deli)
   
   katz_deli.push(status)
 
-  puts "Welcome, your ticket number is #{status} and you are number #{status} in line."
+  puts "Welcome, your ticket number is #{status} and you are number #{total - 1} in line."
   
   status
 end
