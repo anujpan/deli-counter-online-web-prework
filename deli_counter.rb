@@ -8,8 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       status += " #{index + 1}. #{name}"
     end
-    puts status
-    status
+    puts status && status
   end
 end
 
