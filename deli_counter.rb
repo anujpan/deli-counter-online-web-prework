@@ -19,16 +19,14 @@ def take_a_number(katz_deli, name)
 end
 
 def ticket_number(katz_deli)
-  
+
   katz_deli.push(status)
 
   total = katz_deli.length
 
   current_number = total + 1
-
-  status = current_number
   
-  puts "Welcome, your ticket number is #{status} and you are number #{total} in line."
+  puts "Welcome, your ticket number is #{current_number} and you are number #{total} in line."
   
   status
 end
