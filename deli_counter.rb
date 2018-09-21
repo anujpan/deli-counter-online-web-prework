@@ -9,6 +9,7 @@ def line(katz_deli)
       status += " #{index + 1}. #{name}"
     end
     puts status
+    status
   end
 end
 
