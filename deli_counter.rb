@@ -28,7 +28,6 @@ def ticket_number(katz_deli)
   
   puts "Welcome, your ticket number is #{current_number} and you are number #{total} in line."
   
-  status
 end
 
 ticket_number([2, 3, 4])
