@@ -18,11 +18,11 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
 end
 
-# def take_a_number(katz_deli, name)
+def ticket_number(katz_deli)
   total = katz_deli.length
 
   puts "Welcome, your ticket number is #{katz_deli.index(name)+1} and you are #{total} in line."
-# end
+end
 
 def now_serving(katz_deli)
   if katz_deli.any? == false
@@ -31,3 +31,5 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli.shift}."
   end  
 end
+
+ticket_number
