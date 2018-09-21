@@ -23,9 +23,10 @@ def ticket_number(katz_deli)
   
   status = current_number + 1
   
+  katz_deli.push(status)
+
   total = katz_deli.length
   
-  katz_deli.push(status)
 
   puts "Welcome, your ticket number is #{status} and you are number #{total} in line."
   
