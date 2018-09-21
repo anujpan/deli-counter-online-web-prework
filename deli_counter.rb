@@ -12,7 +12,7 @@ def line(katz_deli)
   end
 end
 
-line([‘Mary’, ‘Joe’, Sally’])
+line(["Mary", "Joe", "Sally"])
 
 
 def take_a_number(katz_deli, name)
