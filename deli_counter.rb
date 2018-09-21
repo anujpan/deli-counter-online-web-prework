@@ -21,7 +21,7 @@ end
 def ticket_number(katz_deli)
   current_number = 0
   
-  katz_deli.push(current_number + 1)
+  status = current_number + 1
 
   puts "Welcome, your ticket number is #{katz_deli.index(name)+1} and you are in line."
 end
