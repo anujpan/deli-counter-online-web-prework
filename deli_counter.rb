@@ -30,6 +30,8 @@ def ticket_number(katz_deli)
   status
 end
 
+ticket_number([])
+
 def now_serving(katz_deli)
   if katz_deli.any? == false
     puts "There is nobody waiting to be served!"
