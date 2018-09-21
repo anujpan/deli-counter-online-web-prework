@@ -22,7 +22,7 @@ def ticket_number(katz_deli)
 
   total = katz_deli.length
 
-  current_number = total + 1
+  current_number = katz_deli.length + 1
 
   katz_deli.push(status)
 
