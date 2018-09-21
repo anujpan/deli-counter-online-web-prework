@@ -29,7 +29,7 @@ def ticket_number(katz_deli)
   puts "Welcome, your ticket number is #{current_number} and you are number #{total} in line."
 end
 
-ticket_number([1, 2])
+ticket_number([1, 2, 3])
 
 def now_serving(katz_deli)
   if katz_deli.any? == false
