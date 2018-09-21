@@ -21,7 +21,7 @@ end
 def ticket_number(katz_deli)
   total = katz_deli.length
 
-  puts "Welcome, your ticket number is #{katz_deli.index(name)+1} and you are #{total} in line."
+  puts "Welcome, your ticket number is #{katz_deli.index(name)+1} and you are in line."
 end
 
 def now_serving(katz_deli)
