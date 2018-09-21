@@ -30,7 +30,7 @@ def ticket_number(katz_deli)
   status
 end
 
-ticket_number([1])
+ticket_number([1..4])
 
 def now_serving(katz_deli)
   if katz_deli.any? == false
